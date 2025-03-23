@@ -17,7 +17,9 @@ public class DesafioControleFluxo {
             throw new ArgumentoIllegal("argumento inválido");
         }
 
-        for(int i  = inicio; i <= fim ; i++){
+        int count =  fim - inicio;
+
+        for(int i  = 0; i <= count ; i++){
             System.out.println("imprimindo o número: "+i);
         
     }
